@@ -14,7 +14,7 @@ const config = {
 		adapter: adapter({
 			pages: 'dist',
 			assets: 'dist',
-			fallback: null
+			fallback: 'index.html'
 		  })
 	}
 };
